@@ -1,12 +1,18 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `domukLog`,
+    siteHeadline: `domukLog`,
+    siteUrl: `https://domuk-k.github.io`,
+    siteDescription: `도묵의 기술 블로그입니다`,
+    siteLanguage: `kr`,
+    siteImage: `/banner.jpg`,
+    author: `@domuk-k`,
   },
   plugins: [
     {
@@ -25,12 +31,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/domuk-k`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/godewi_/`,
           },
         ],
       },
@@ -38,7 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: `domukLog`,
       },
     },
     `gatsby-plugin-sitemap`,
@@ -77,4 +83,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
