@@ -3,6 +3,7 @@
 <url> <loc>https://domuk-k.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://domuk-k.github.io/frontend-school-log</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/map-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/chakraUI-도입기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/web-architecture101</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -15,6 +16,7 @@
 <url> <loc>https://domuk-k.github.io/tags/map</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/tags/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/tags/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://domuk-k.github.io/tags/daily-log</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/tags/dev-books</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://domuk-k.github.io/tags/아키텍쳐</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
